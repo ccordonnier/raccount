@@ -6,7 +6,12 @@
   "scripts": {
     "start": "nodemon server",
     "client" : "cd client && npm start",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
     "build": "cd client && npm run build"
+  },
+  "engines": {
+    "node":"14.x"
   },
   "keywords": [],
   "author": "",
