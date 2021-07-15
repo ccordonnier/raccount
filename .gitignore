@@ -2,4 +2,4 @@
 /client/node_modules
 /config/.env
 /client/.git__old
-.git__old
+/.git__old
